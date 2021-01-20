@@ -1,0 +1,15 @@
+/.git
+
+# .gitignore
+/venv
+/.meltano
+/.env
+/ui.cfg
+
+# transform/.gitignore
+/transform/target/
+/transform/dbt_modules/
+/transform/logs/
+
+# custom
+# client_secrets.json

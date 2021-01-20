@@ -1,0 +1,144 @@
+{
+    "streams": [
+        {
+            "tap_stream_id": "ads_performance_report",
+            "stream": "ads_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": false
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_by_device_hourly_performance_report",
+            "stream": "campaign_by_device_hourly_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": false
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_performance_report",
+            "stream": "campaign_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": false
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "keyword_performance_report",
+            "stream": "keyword_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": true
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "search_query_performance_report",
+            "stream": "search_query_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "segmented_campaign_performance_report",
+            "stream": "segmented_campaign_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "stats_with_search_impressions_performance_report",
+            "stream": "stats_with_search_impressions_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        }
+    ]
+}

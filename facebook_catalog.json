@@ -1,0 +1,224 @@
+{
+    "streams": [
+        {
+            "tap_stream_id": "campaign_performance_report",
+            "stream": "campaign_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_by_placement_performance_report",
+            "stream": "campaign_by_placement_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_by_age_gender_performance_report",
+            "stream": "campaign_by_age_gender_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_by_impression_device_performance_report",
+            "stream": "campaign_by_impression_device_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_performance_report",
+            "stream": "ad_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_by_placement_performance_report",
+            "stream": "ad_by_placement_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_by_age_gender_performance_report",
+            "stream": "ad_by_age_gender_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_by_impression_device_performance_report",
+            "stream": "ad_by_impression_device_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "offline_conversion_performance_report",
+            "stream": "offline_conversion_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "offline_conversion_by_age_gender_performance_report",
+            "stream": "offline_conversion_by_age_gender_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "offline_conversion_by_impression_device_performance_report",
+            "stream": "offline_conversion_by_impression_device_performance_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+version: 1
+send_anonymous_usage_stats: false
+project_id: 9d5f14c8-5b92-446c-baa2-8745c9c0b8d1
+plugins:
+  extractors:
+  - name: tap-simplifi
+    namespace: tap_simplifi
+    pip_url: git+https://github.com/reachlocal/tap-simplifi.git
+    executable: tap-simplifi
+    capabilities:
+    - catalog
+    config:
+      appKey: $SIMPLIFI_APPKEY
+      userKey: $SIMPLIFI_USERKEY
+      username: $SIMPLIFI_USERNAME
+      organizationId: $SIMPLIFI_ORGANIZATION_ID
+      dateRange: $SIMPLIFI_DATE_RANGE
+    catalog: simplifi_catalog.json
+  - name: tap-adwords
+    namespace: tap_adwords
+    pip_url: git+https://github.com/reachlocal/tap-adwords.git
+    executable: tap-adwords
+    capabilities:
+    - catalog
+    config:
+      auth: $ADWORDS_CLIEN_AUTH
+      developerToken: $ADWORDS_DEV_TOKEN
+      refreshToken: $ADWORDS_REFRESH_TOKEN
+      customerId: $ADWORDS_CUSTOMER_ID
+      rootCustomerId: $ADWORDS_ROOT_CUSTOMER_ID
+      dateRange: $ADWORDS_DATE_RANGE
+    catalog: adwords_catalog.json
+  - name: tap-bing
+    namespace: tap_bing
+    pip_url: git+https://github.com/reachlocal/tap-bing.git
+    executable: tap-bing
+    capabilities:
+    - catalog
+    config:
+      clientId: $BING_CLIENT_ID
+      clientSecret: $BING_CLIENT_SECRET
+      devToken: $BING_DEV_TOKEN
+      redirectionUri: $BING_REDIRECTION_URI
+      refreshToken: $BING_REFRESH_TOKEN
+      dateRange: $BING_DATE_RANGE
+    catalog: bing_catalog.json
+  - name: tap-facebook
+    namespace: tap_facebook
+    pip_url: git+https://github.com/reachlocal/tap-facebook.git
+    executable: tap-facebook
+    capabilities:
+    - catalog
+    config:
+      accessToken: $FACEBOOK_ACCESS_TOKEN
+      dateRange: $FACEBOOK_DATE_RANGE
+    catalog: facebook_catalog.json
+  loaders:
+  - name: target-gcs
+    namespace: target_gcs
+    pip_url: git+https://github.com/reachlocal/target-gcs-bq.git
+    executable: target-gcs-bq
+    config:
+      destination_path: output
+      disable_collection: true
+      google_folder: $GCS_FOLDER
+      bucket_name: $GCS_BUCKET_NAME
+      daily: $GCS_DAILY_INGEST
+      bq_dataset: $GCS_BQ_DATASET
+      upload_to_bq: $GCS_UPLOAD_TO_BQ

@@ -1,0 +1,244 @@
+{
+    "streams": [
+        {
+            "tap_stream_id": "campaign_general_summary_reports",
+            "stream": "campaign_general_summary_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_conversion_summary_reports",
+            "stream": "campaign_conversion_summary_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_geofence_reports",
+            "stream": "campaign_geofence_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_device_reports",
+            "stream": "campaign_device_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_keyword_reports",
+            "stream": "campaign_keyword_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "campaign_network_publisher_reports",
+            "stream": "campaign_network_publisher_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_summary_reports",
+            "stream": "ad_summary_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_conversion_reports",
+            "stream": "ad_conversion_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_device_reports",
+            "stream": "ad_device_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_keyword_reports",
+            "stream": "ad_keyword_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_geofence_reports",
+            "stream": "ad_geofence_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "ad_network_publisher_reports",
+            "stream": "ad_network_publisher_reports",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        }
+    ]
+}

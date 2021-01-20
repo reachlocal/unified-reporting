@@ -1,0 +1,344 @@
+{
+    "streams": [
+        {
+            "tap_stream_id": "AD_PERFORMANCE_REPORT",
+            "stream": "AD_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "AD_PERFORMANCE_EXTENDED_REPORT",
+            "stream": "AD_PERFORMANCE_EXTENDED_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": false
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "AGE_RANGE_PERFORMANCE_REPORT",
+            "stream": "AGE_RANGE_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "CAMPAIGN_PERFORMANCE_REPORT",
+            "stream": "CAMPAIGN_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "GENDER_PERFORMANCE_REPORT",
+            "stream": "GENDER_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "KEYWORDS_PERFORMANCE_REPORT",
+            "stream": "KEYWORDS_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "PARENTAL_STATUS_PERFORMANCE_REPORT",
+            "stream": "PARENTAL_STATUS_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "PLACEHOLDER_FEED_ITEM_REPORT",
+            "stream": "PLACEHOLDER_FEED_ITEM_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "PRODUCT_PARTITION_REPORT",
+            "stream": "PRODUCT_PARTITION_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "SEARCH_QUERY_PERFORMANCE_REPORT",
+            "stream": "SEARCH_QUERY_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "SHOPPING_PERFORMANCE_REPORT",
+            "stream": "SHOPPING_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "STATS_BY_DEVICE_AND_NETWORK_REPORT",
+            "stream": "STATS_BY_DEVICE_AND_NETWORK_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "STATS_BY_DEVICE_HOURLY_REPORT",
+            "stream": "STATS_BY_DEVICE_HOURLY_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "STATS_IMPRESSIONS_REPORT",
+            "stream": "STATS_IMPRESSIONS_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "STATS_WITH_SEARCH_IMPRESSIONS_REPORT",
+            "stream": "STATS_WITH_SEARCH_IMPRESSIONS_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "VIDEO_CAMPAIGN_PERFORMANCE_REPORT",
+            "stream": "VIDEO_CAMPAIGN_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        },
+        {
+            "tap_stream_id": "VIDEO_PERFORMANCE_REPORT",
+            "stream": "VIDEO_PERFORMANCE_REPORT",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        }
+    ]
+}
