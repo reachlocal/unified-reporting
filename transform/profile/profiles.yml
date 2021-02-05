@@ -1,0 +1,13 @@
+tap_adwords:
+  target: prod
+  outputs:
+    prod:
+      type: bigquery
+      method: service-account
+      project: reachlocal-seo-development
+      dataset: dbt_test
+      threads: 1
+      keyfile: /mnt/c/prj/meltano/demo-adwords/client_secret.json
+      timeout_seconds: 300
+      priority: interactive
+      retries: 1

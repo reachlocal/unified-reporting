@@ -67,3 +67,12 @@ plugins:
       daily: $GCS_DAILY_INGEST
       bq_dataset: $GCS_BQ_DATASET
       upload_to_bq: $GCS_UPLOAD_TO_BQ
+  transforms:
+  - name: tap-adwords
+    pip_url: -e ../dbt-bq
+  transformers:
+  - name: dbt
+    pip_url: dbt==0.19.0
+  files:
+  - name: dbt
+    pip_url: git+https://gitlab.com/meltano/files-dbt.git
