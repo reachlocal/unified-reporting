@@ -69,7 +69,7 @@ plugins:
       upload_to_bq: $GCS_UPLOAD_TO_BQ
   transforms:
   - name: tap-adwords
-    pip_url: -e ../dbt-bq
+    pip_url: git+https://github.com/reachlocal/dbt-adwords-bq.git
   transformers:
   - name: dbt
     pip_url: dbt==0.19.0

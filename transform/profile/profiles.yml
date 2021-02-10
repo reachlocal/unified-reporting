@@ -4,10 +4,10 @@ tap_adwords:
     prod:
       type: bigquery
       method: service-account
-      project: reachlocal-seo-development
-      dataset: dbt_test
+      project: "{{ env_var('DBT_BQ_PROJECT') }}"
+      dataset: "{{ env_var('DBT_BQ_DATASET') }}"
       threads: 1
-      keyfile: /mnt/c/prj/meltano/demo-adwords/client_secret.json
+      keyfile: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS') }}"
       timeout_seconds: 300
       priority: interactive
       retries: 1

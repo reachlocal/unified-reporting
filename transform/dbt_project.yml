@@ -36,16 +36,4 @@ models:
       # Applies to all files under models/example/
       production:
           +materialized: table
-vars: 
-    t_campaignStats: '`thrivehive.p_CampaignStats_4805394795`'
-    t_campaign: '`thrivehive.p_Campaign_4805394795`'
-    t_ads: '`thrivehive.p_Ad_4805394795`'
-    t_adStats: '`thrivehive.p_AdStats_4805394795`'
-    t_campaignConv: '`thrivehive.p_CampaignConversionStats_4805394795`'
-    t_adGroupStats: '`thrivehive.p_AdGroupStats_4805394795`'
-    t_adGroup: '`thrivehive.p_AdGroup_4805394795`'
-    t_adGroupConv: '`thrivehive.p_AdGroupConversionStats_4805394795`'
-    convName1: '"name of first conversion"'
-    convName2: '"name of second conversion"'
-    convName3: '"name of third conversion"'
 
