@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: AD_PERFORMANCE_REPORT
+    description: "Google Ads data"
+
+    columns: 
+      - name: MasterAdvertiserId
+        description: MasterAdvertiserId
+      - name: AdvertiserId
+        description: AdvertiserId
+      - name: AdGroupId
+        description: AdGroupId
+      - name: AdGroupName
+        description: AdGroupName
+      - name: AverageCpc
+        description: AverageCpc
+      - name: AveragePosition
+        description: AveragePosition
+      - name: CampaignId
+        description: CampaignId
+      - name: CampaignName
+        description: CampaignName
+      - name: CampaignStatus
+        description: CampaignStatus
+      - name: Clicks
+        description: Clicks
+      - name: Cost
+        description: Cost
+      - name: CriterionId
+        description: CriterionId
+      - name: Ctr
+        description: Ctr
+      - name: Date
+        description: Date
+      - name: Id
+        description: Id
+      - name: Impressions
+        description: Impressions
+      - name: IsNegative
+        description: IsNegative
+      - name: Status
+        description: Status
+      - name: CreativeFinalUrls
+        description: CreativeFinalUrls
+      - name: CreativeDestinationUrl
+        description: CreativeDestinationUrl
+      - name: CreativeTrackingUrlTemplate
+        description: CreativeTrackingUrlTemplate
+      - name: CreativeUrlCustomParameters
+        description: CreativeUrlCustomParameters
+      - name: AbsoluteTopImpressionPercentage
+        description: AbsoluteTopImpressionPercentage
+      - name: TopImpressionPercentage
+        description: TopImpressionPercentage
+      - name: OfferId
+        description: OfferId
+      - name: OfferName
+        description: OfferName
