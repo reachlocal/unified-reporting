@@ -54,6 +54,16 @@ plugins:
       accessToken: $FACEBOOK_ACCESS_TOKEN
       dateRange: $FACEBOOK_DATE_RANGE
     catalog: facebook_catalog.json
+  - name: tap-telemetrics
+    namespace: tap_telemetrics
+    pip_url: git+https://github.com/reachlocal/tap-telemetrics.git
+    executable: tap-telemetrics
+    capabilities:
+    - catalog
+    config:
+      organizationToken: $TELEMETRICS_ORG_TOKEN
+      dateRange: $TELEMETRICS_DATE_RANGE
+    catalog: telemetrics_catalog.json
   loaders:
   - name: target-gcs
     namespace: target_gcs

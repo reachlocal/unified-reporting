@@ -1,0 +1,24 @@
+{
+    "streams": [
+        {
+            "tap_stream_id": "calls_report",
+            "stream": "calls_report",
+            "schema": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false
+            },
+            "key_properties": [],
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "selected": true
+                    }
+                }
+            ]
+        }
+    ]
+}
